@@ -18,14 +18,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    padding: 50px 220px 0 140px;
-
-
-    /*display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;*/
+    padding: 50px 365px 0 290px;
 }
 
 .main-nav {
@@ -67,7 +60,7 @@ header {
 .header-text {
     display: flex;
     flex-direction: column;
-    padding-top: 140px;
+    padding-top: 170px;
     padding-left: 10px;
 }
 
@@ -125,6 +118,7 @@ header {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    padding-left: 300px;
 }
 
 .block-icon {
