@@ -1,0 +1,5 @@
+#forder of IDE
+
+.idea/
+.*
+!.gitignore
