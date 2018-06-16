@@ -103,6 +103,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .title-text {
@@ -116,6 +117,7 @@ header {
 
 .title-text h2 {
     font-size: 40px;
+    margin: 0;
 }
 
 .feateres {
