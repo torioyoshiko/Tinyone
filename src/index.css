@@ -124,3 +124,20 @@ header {
 .block-icon {
     width: 500px;
 }
+
+.keep-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.keep-text {
+    text-align: center;
+}
+
+.keep-text h2 {
+    font-size: 40px;
+    color: #fcdb00;
+}
