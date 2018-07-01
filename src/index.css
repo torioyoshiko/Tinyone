@@ -138,6 +138,25 @@ header {
 }
 
 .keep-text h2 {
-    font-size: 40px;
+    font-size: 42px;
     color: #fcdb00;
+}
+
+.keep-text p {
+    color: #717171;
+    font-size: 25px;
+}
+
+.keep-email input{
+    height: 40px;
+    width: 500px;
+    border-radius: 7px;
+}
+
+.keep-email button {
+    width: 110px;
+    height: 46px;
+    border-radius: 7px;
+    background-color: #fcdb00;
+    border-color: #fcdb00;
 }
