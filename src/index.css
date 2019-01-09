@@ -169,3 +169,23 @@ header {
     background-color: #fcdb00;
     border-color: #fcdb00;
 }
+
+.keep-social {}
+
+.icons {
+    padding-top: 96px;
+    padding-bottom: 100px;
+}
+
+.icons img {
+    padding-right: 25px;
+}
+
+.keep-footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 250px;
+}
