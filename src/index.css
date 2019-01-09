@@ -32,6 +32,7 @@ header {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .main-nav li {
@@ -62,6 +63,7 @@ header {
     flex-direction: column;
     padding-top: 170px;
     padding-left: 10px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .header-text h2 {
@@ -70,6 +72,7 @@ header {
 
 .header-text h3 {
     margin-top: 20px;
+    font-size: 20px;
 }
 
 .header-text p{
@@ -97,6 +100,7 @@ header {
     flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .title-text {
@@ -111,6 +115,10 @@ header {
 .title-text h2 {
     font-size: 40px;
     margin: 0;
+}
+
+.title-text h3 {
+    font-size: 20px;
 }
 
 .feateres {
@@ -131,6 +139,7 @@ header {
     align-items: center;
     background-color: black;
     color: white;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .keep-text {
