@@ -141,17 +141,23 @@ header {
     width: 500px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     justify-content: flex-start;
 }
 
 .keep-touch {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
     background-color: black;
     color: white;
     font-family: 'PT Sans', sans-serif;
+}
+
+.keep-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .keep-text {
@@ -194,10 +200,15 @@ header {
 }
 
 .keep-footer {
-    background-color: black;
-    color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     padding: 0px 250px;
+    background-color: black;
+    color: white;
+}
+
+.keep-footer-fix {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
 }
