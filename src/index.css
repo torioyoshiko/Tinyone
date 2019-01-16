@@ -134,7 +134,11 @@ header {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 300px;
+    padding-left: 200px;
+}
+
+.feateres h3 {
+    margin-top: 0;
 }
 
 .block-icon {
@@ -144,6 +148,10 @@ header {
     justify-content: flex-start;
 }
 
+.feateres-icon {
+    padding-right: 20px;
+}
+
 .keep-touch {
     display: flex;
     flex-direction: row;
@@ -151,6 +159,7 @@ header {
     background-color: black;
     color: white;
     font-family: 'PT Sans', sans-serif;
+    padding-bottom: 30px;
 }
 
 .keep-block {
@@ -201,8 +210,10 @@ header {
 }
 
 .keep-footer {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     background-color: black;
     color: white;
 }
