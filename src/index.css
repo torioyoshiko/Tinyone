@@ -23,6 +23,23 @@ header {
     background-color: #fcdb00;
 }
 
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 33px;
+}
+
+.header-logo img {
+    padding-right: 5px;
+}
+
+.logo-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
 .header-menu {
     display: flex;
     flex-direction: row;
@@ -42,6 +59,7 @@ header {
     align-items: flex-start;
     flex-wrap: wrap;
     font-family: 'PT Sans', sans-serif;
+    padding-top: 15px;
 }
 
 .main-nav li {
