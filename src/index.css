@@ -27,7 +27,6 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 33px;
 }
 
 .header-logo img {
@@ -44,27 +43,27 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
+    padding-bottom: 50px;
 }
 
 .main-nav {
+    width: 100%;
     position: relative;
-    height: 50px;
     color: white;
     list-style: none;
     text-align: center;
     margin: 0;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
     font-family: 'PT Sans', sans-serif;
-    padding-top: 15px;
 }
 
 .main-nav li {
-    float: left;
-    margin-right: 39px;
     font-size: 23px;
 }
 
@@ -81,14 +80,14 @@ header {
 .header-second {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .header-text {
     display: flex;
     flex-direction: column;
-    padding-top: 170px;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -117,8 +116,6 @@ header {
 }
 
 .header-note img{
-    margin-top: 70px;
-    margin-left: 360px;
 }
 
 .tinyone-feateres {
@@ -167,7 +164,11 @@ header {
 }
 
 .feateres-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-right: 20px;
+    width: 53px;
 }
 
 .keep-touch {
