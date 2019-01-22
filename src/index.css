@@ -63,7 +63,7 @@ header {
     font-family: 'PT Sans', sans-serif;
 }
 
-.main-nav li {
+.nav-li {
     font-size: 23px;
 }
 
@@ -75,6 +75,10 @@ header {
 .main-nav a:hover {
     color: white;
     text-decoration: underline;
+}
+
+.fix-li {
+    margin-left: 10px;
 }
 
 .header-second {
